@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Box Layout</title>
+<style>
+
+.container {
+    width: 600px;
+    height: 450px;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+ div.ijo {
+    background-color: green;
+    width: 600px;
+    height: 100px;
+}
+ div.tengah {
+    display: flex;
+    justify-content: space-between;
+}
+ div.bawah {
+    display: flex;
+    justify-content: space-between;
+}
+ div.kuning1 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+}
+ div.oren {
+    background-color: orange;
+    width: 430px;
+    height: 150px;
+}
+ div.kuning2 {
+    background-color: yellow;
+    width: 150px;
+    height: 150px;
+}
+ div.biru {
+    background-color: aqua;
+    width: 430px;
+    height: 150px;
+}
+ 
+</style>
+</head>
+<body>
+
+<div class="container">
+    <div class="atas">
+        <div class="ijo"></div>
+    </div>
+    <div class="tengah">
+        <div class="kuning1"></div>
+        <div class="oren"></div>
+    </div>
+    <div class="bawah">
+        <div class="kuning2"></div>
+        <div class="biru"></div>
+    </div>
+</div>
+
+</body>
+</html>
